@@ -24,7 +24,7 @@ and put them into data directory.
 
 ## 3. Download the models (loading models):
 
-* [models]() code: 
+* [models](https://pan.baidu.com/s/1XmE1T9G_NgTXVuZdLmaVhg ) code: pmgt
 
 and put them into pretrained_models directory.
 
