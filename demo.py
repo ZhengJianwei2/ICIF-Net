@@ -21,23 +21,23 @@ def get_args():
     # args
     # ------------
     parser = ArgumentParser()
-    parser.add_argument('--project_name', default='ICIF-Net', type=str)
-    parser.add_argument('--gpu_ids', type=str, default='0', help='gpu ids: e.g. 0  0,1,2, 0,2. use -1 for CPU')
+    parser.add_argument('--project_name', default='ICIF_demo_LEVIR+', type=str)
+    parser.add_argument('--gpu_ids', type=str, default='0,1', help='gpu ids: e.g. 0  0,1,2, 0,2. use -1 for CPU')
     parser.add_argument('--checkpoint_root', default='checkpoints', type=str)
     parser.add_argument('--output_folder', default='samples/predict', type=str)
 
     # data
-    parser.add_argument('--num_workers', default=0, type=int)
+    parser.add_argument('--num_workers', default=8, type=int)
     parser.add_argument('--dataset', default='CDDataset', type=str)
     parser.add_argument('--data_name', default='quick_start', type=str)
 
-    parser.add_argument('--batch_size', default=1, type=int)
+    parser.add_argument('--batch_size', default=8, type=int)
     parser.add_argument('--split', default="demo", type=str)
     parser.add_argument('--img_size', default=256, type=int)
 
     # model
     parser.add_argument('--n_class', default=2, type=int)
-    parser.add_argument('--net_G', default='ICIF-Net', type=str, help='ICIF-Net')
+    parser.add_argument('--net_G', default='ICIF_Net', type=str, help='ICIF-Net')
     parser.add_argument('--checkpoint_name', default='LEVIR-CD+.pt', type=str)
 
     args = parser.parse_args()
