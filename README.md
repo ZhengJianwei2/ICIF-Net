@@ -26,7 +26,7 @@ and put them into data directory.
 
 * [models](https://pan.baidu.com/s/1XmE1T9G_NgTXVuZdLmaVhg ) code: pmgt
 
-and put them into pretrained_models directory.
+and put them into checkpoints directory.
 
 ## 5. Test
 
