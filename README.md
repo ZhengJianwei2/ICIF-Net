@@ -4,9 +4,7 @@
 * ICIF-Net: Intra-Scale Cross-Interaction and Inter-Scale Feature Fusion Network for Bitemporal Remote Sensing Images Change Detection (TGARS 2022) [paper](https://ieeexplore.ieee.org/document/9759285) and [source_code](https://github.com/ZhengJianwei2/ICIF-Net/)
 
 ## 1. Environment setup
-This code has been tested on on the workstation with Intel Xeon CPU E5-2690 v4 cores and two GPUs of NVIDIA TITAN V with a single 12G of video memory, Python 3.6, pytorch 1.9, CUDA 10.0, cuDNN 7.6. Please install related libraries before running this code:
-
-    pip install -r requirements.txt
+This code has been tested on on the workstation with Intel Xeon CPU E5-2690 v4 cores and two GPUs of NVIDIA TITAN V with a single 12G of video memory, Python 3.6, pytorch 1.9, CUDA 10.0, cuDNN 7.6.
 
 ## 2. Download the datesets:
 * LEVIR-CD:
