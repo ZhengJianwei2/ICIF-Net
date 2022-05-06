@@ -7,10 +7,14 @@ class DataConfig:
         self.data_name = data_name
         if data_name == 'LEVIR+':
             self.root_dir = 'D:/data/CD/LEVIR+/'  # Your Path
+        elif data_name == 'LEVIR':
+            self.root_dir = 'D:/data/CD/LEVIR/'
         elif data_name == 'WHU':
             self.root_dir = 'D:/data/CD/WHU/'
-        elif data_name == 'GT':
-            self.root_dir = 'D:/data/CD/GT/'    
+        elif data_name == 'GZ':
+            self.root_dir = 'D:/data/CD/GZ/'  
+        elif data_name == 'SYSU':
+            self.root_dir = 'D:/data/CD/SYSU/'
         elif data_name == 'quick_start':
             self.root_dir = './samples/'
         else:
