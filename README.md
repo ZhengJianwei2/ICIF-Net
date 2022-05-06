@@ -28,7 +28,7 @@ and put them into data directory.
 
 and put them into checkpoints directory.
 
-## 5. Test
+## 4. Train
 
     python main_cd.py
 
