@@ -1,0 +1,12 @@
+einops==0.3.0
+imageio==2.9.0
+lib==4.0.0
+matplotlib==3.3.4
+numpy==1.19.3
+opencv_python_headless==4.5.3.56
+Pillow==9.1.0
+thop==0.0.31.post2005241907
+tifffile==2020.9.3
+timm==0.4.12
+torch==1.9.0
+torchvision==0.10.0
