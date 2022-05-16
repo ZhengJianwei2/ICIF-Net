@@ -476,9 +476,9 @@ class DoubleConv(nn.Module):
     def forward(self, x):
         return self.relu(self.double_conv(x)+self.identity(x))
 
-class TransFuse_WSelf(nn.Module):
+class ICIFNet(nn.Module):
     def __init__(self,num_classes=2, drop_rate=0.2, normal_init=True, pretrained=False):
-        super(TransFuse_WSelf, self).__init__()
+        super(ICIFNet, self).__init__()
 
         self.show_Feature_Maps = False
         self.resnet = resnet18()
