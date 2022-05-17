@@ -4,7 +4,7 @@
 * ICIF-Net: Intra-Scale Cross-Interaction and Inter-Scale Feature Fusion Network for Bitemporal Remote Sensing Images Change Detection (TGARS 2022) [paper](https://ieeexplore.ieee.org/document/9759285) and [source_code](https://github.com/ZhengJianwei2/ICIF-Net/)
 
 
-![model](./images/model.png)
+![image-model](./images/model.png)
 
 
 ## 1. Environment setup
